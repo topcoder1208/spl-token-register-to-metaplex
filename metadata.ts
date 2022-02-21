@@ -171,6 +171,8 @@ const run = async () => {
   // const connection = new Connection("https://api.mainnet-beta.solana.com");
   const connection = new Connection("https://api.devnet.solana.com");
   const walletKeypair = Keypair.fromSecretKey(new Uint8Array(walletJson));
+
+  //// pls update with your token mint address
   // const mintKey = new PublicKey('5gs8nf4wojB5EXgDUWNLwXpknzgV2YWDhveAeBZpVLbp');
   const mintKey = new PublicKey('6FzDRNrhR33hmBHf5kwtUr9MxvPFc9dqwEqyzX2CEad1');
 
